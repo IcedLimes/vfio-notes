@@ -1,0 +1,7 @@
+# Nothing here is executable; these are notes. Keep local scratch out.
+*.log
+*.img
+*.iso
+*.qcow2
+.DS_Store
+*.swp
