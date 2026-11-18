@@ -9,6 +9,11 @@ analysed and changes behaviour if it thinks it is, so people who run analysis en
 a great deal about how visible the hypervisor is. The same mechanics explain why a passthrough
 guest behaves differently from bare metal even when you are not trying to hide anything.
 
+> These notes come from a real build. The passthrough guest they describe was tuned until it
+> came back clean against a comprehensive public VM-detection suite — so the trade-offs and dead
+> ends below are what actually happened, not what ought to in theory. The configuration itself is
+> deliberately not reproduced here; see the [scope note](../README.md#scope).
+
 ## Why a hypervisor cannot be transparent
 
 Everything follows from one fact: **virtualisation is implemented by trapping.**
